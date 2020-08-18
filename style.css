@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(pic1.jpg);
+    background: url(final.jpg);
     background-size: cover;
     background-position: center;
     font-family: 'Ubuntu', sans-serif;
@@ -13,11 +13,12 @@ body{
     background:rgba(0, 0, 0, 0.4);
     color: #fff;
     top: 50%;
-    left: 50%;
+    left: 75%;
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 50px;
+    border-radius: 50px;
 
 }
 
@@ -40,12 +41,15 @@ h1{
 
 .loginbox p{
     margin: 0;
-    padding: 0;
+    padding-bottom: 20px;
     color:  #ffffff;
     font-weight: bold;
-    font-size: 28px;;
+    font-size: 28px;
+    text-align: center;
 }
-
+.loginbox p:hover{
+    color: #00ccff;
+}
 .loginbox input{
     width: 100%;
     margin-bottom: 28px;
@@ -55,10 +59,12 @@ h1{
 {
     border: none;
     border-bottom: 1px solid #fff;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
     outline: none;
+    text-align: center;
     height: 40px;
-    color: #fff;
+    color: #00ccff;
     font-size: 20px;
 }
 .loginbox input[type="submit"]
