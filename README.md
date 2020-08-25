@@ -1,2 +1,2 @@
 # tharunnayak14.github.io
-This is my own website
+Collection of all web_dev code
