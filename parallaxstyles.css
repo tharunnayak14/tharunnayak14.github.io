@@ -1,0 +1,59 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", serif,sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.img1, .img2, .img3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* fixed = parallax
+    scroll = normal */
+}
+.img1{
+    background-image: url("cover (1).jpg");
+    min-height: 100%;
+}
+.img2{
+    background-image: url("treck.jpg");
+    min-height: 400px;
+}
+.img3{
+    background-image: url("m.jpg");
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+}
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px 40px;
+}
+.ptext .no{
+    background-color: transparent;
+    color: #000;
+}
