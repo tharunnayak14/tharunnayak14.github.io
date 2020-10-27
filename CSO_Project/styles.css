@@ -6,14 +6,14 @@ font-family: 'Ubuntu', sans-serif;
 body,html{
     height: 100%;
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     line-height: 1.8em;
     color: #666;
 }
 /* parallax effect */
-.img1, .img2, .img3{
+.img1, .img2, .img3, .img4, .img5{
     position: relative;
     background-position: center;
     background-size: cover;
@@ -27,21 +27,37 @@ body,html{
     min-height: 100%;
 }
 .img2{
+    background-image: url("water2.png");
+    min-height: 100%;
+}
+.img3{
     background-image: url("green (1).jpg");
     min-height: 80%;
 }
-.img3{
-    background-image: url("m.jpg");
-    min-height: 50%;
+.img4{
+    background-image: url("beach.jpg");
+    min-height: 80%;
 }
-
+.img5{
+    background-image: url("waterdrop.jpg");
+    min-height: 80%;
+}
+.text_sub_heading{
+    padding: 0 0 5%; 
+}
+/* section */
 .section{
-    text-align: center;
-    padding: 3rem 5rem;
+    padding: 3rem 3rem;
+    font-weight: bold;
 }
 .section-dark{
     background-color: #282e34;
     color: #ddd;
+}
+.withwater{
+    display: block;
+    text-align: center;
+    font-weight: bold;
 }
 .ptext{
     position: absolute;
@@ -84,7 +100,7 @@ h2{
     background-color: rgba(0,123,255,0.9);
     margin: 0 auto;
     font-weight: bold;
-    padding: 1% 5%;
+    padding: 0.5% 5%;
 }
 .nav-link{
     margin: 10px;
@@ -98,4 +114,41 @@ h2{
 }
 .navbar-brand{
     font-size: 2rem;
+}
+/* aboutus */
+#aboutus{
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+}
+.heading{
+    padding-top: 6%;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 1rem;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-text{
+    font-size: 300%;
+    font-weight: bolder;
+}
+
+
+/* footer */
+.page-footer{
+    background-color: rgba(0,123,255, .8);
+}
+.fab{
+    color: white;
+}
+.footer-copyright{
+    color: white;
+    background-color: #007bff;
+}
+.list-inline-item{
+    padding: 0 5%;
 }
